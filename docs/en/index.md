@@ -2,12 +2,6 @@
 
 Dybee is a cloud-based platform for building energy management and continuous commissioning. It combines energy monitoring, digital twin modeling, real-time data acquisition, and automated fault detection in a single environment.
 
-![image-20260512111758978](./assets/image-20260512111758978.png)
-
-
-
-
-
 ## Quick Navigation
 
 

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "WebFetch(domain:blog.bgianalytics.com)",
+      "Bash(find:*)",
+      "Bash(where python:*)",
+      "Bash(py:*)",
+      "Bash(.venv/Scripts/python.exe -m pip list)",
+      "Bash(.venv/Scripts/mkdocs.exe --version)"
+    ]
+  }
+}

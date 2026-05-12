@@ -1,0 +1,104 @@
+site_name: Dybee Documentation
+theme:
+  name: material
+  language: en
+  logo: assets/cropped-BGI_Logo_Blanc-2.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  robots: noindex
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - What is Dybee?: getting-started/index.md
+    - Key Concepts: getting-started/concepts.md
+    - Platform Navigation: getting-started/navigation.md
+    - Subscription Plans: getting-started/plans.md
+  - Building Setup:
+    - Configuration: building-setup/configuration.md
+    - Users & Permissions: building-setup/users.md
+  - Building Modeling:
+    - Digital Twin Overview: modeling/index.md
+    - Families & Templates: modeling/families.md
+    - Entities: modeling/entities.md
+    - Energy Flows: modeling/energy-flows.md
+  - Data Acquisition:
+    - Overview & Prerequisites: data-acquisition/index.md
+    - BACnet Connection: data-acquisition/bacnet.md
+    - Point Configuration: data-acquisition/points.md
+  - Formulas & Calculations:
+    - Overview: formulas/index.md
+    - Formula Types: formulas/types.md
+    - Functions Reference: formulas/functions.md
+    - Model Hierarchy Navigation: formulas/hierarchy.md
+  - Energy Monitoring:
+    - Overview: energy-monitoring/index.md
+    - Energy Sources: energy-monitoring/sources.md
+    - Invoice Data: energy-monitoring/invoices.md
+    - Baseline Modeling: energy-monitoring/baseline.md
+    - Savings & Cost Analysis: energy-monitoring/savings.md
+  - Analysis:
+    - Rules: analysis/rules.md
+    - KPIs: analysis/kpis.md
+    - Optimization Hints: analysis/optimization.md
+  - Visualization:
+    - Explorer & Point Sets: visualization/explorer.md
+    - Charts: visualization/charts.md
+  - Dashboards & Widgets:
+    - Dashboard Structure: dashboards/index.md
+    - Widget Reference: dashboards/widgets.md
+    - Dashboard Templates: dashboards/templates.md
+    - Sharing & Importing: dashboards/sharing.md
+  - Fault Detection:
+    - Reviewing Faults: fault-detection/index.md
+  - Tasks & Commissioning:
+    - Continuous Commissioning: tasks/index.md
+    - Task Workflow: tasks/workflow.md
+  - Project Documentation:
+    - Overview: project-docs/index.md
+    - Logbook: project-docs/logbook.md
+    - Comments & Annotations: project-docs/comments.md
+    - Implementation Guide: project-docs/implementation-guide.md

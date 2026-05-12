@@ -5,7 +5,14 @@
 The Dybee interface has two main navigation areas:
 
 - **Left sidebar** — main module navigation
+
+  ![image-20260512114008027](./assets/image-20260512114008027.png)
+
 - **Top-right menu** — user account, building selection, settings
+
+  ![image-20260512114056374](./assets/image-20260512114056374.png)
+
+
 
 ## Main Modules
 

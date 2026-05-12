@@ -18,9 +18,14 @@ Inconsistent modeling will cause template widgets to fail or display no data in 
 ## Creating a Template
 
 1. Build the dashboard page on the parent building site
+
 2. Open **Page Settings** (edit mode)
+
 3. Enable the **Template** option
+
 4. Save
+
+   ![image-20260512120324299](./assets/image-20260512120324299.png)
 
 ## Deploying a Template to a Child Building
 
